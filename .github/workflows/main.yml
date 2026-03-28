@@ -21,4 +21,4 @@ jobs:
           aws-region: eu-south-1
 
       - name: Deploy to S3
-        run: aws s3 sync . s3://michele-serverless-app-123 --delete
+        run: aws s3 sync . s3://michele-aws-static-site-2026 --delete
